@@ -47,7 +47,7 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 | `Concentration_B`                    | Concentration of the second virus component                      |
 | `450, 451, ..., 1700`                | Measured average SERS intensity of corresponding Raman shift (cm⁻¹)|
 
-### Plots (`.png`)  
+### PNG plots
 Under each `Reconstructed Spectra vs Actual…` folder you’ll find one plot per concentration for each single virus, and one per concentration combination for each binary mixture. 
 
 Each **Single Virus** figure shows:
