@@ -11,7 +11,7 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 .
 ├── Virus_in_Water/
 │   ├── Least squares fitting of mixture (water).ipynb
-│   ├── test (virus in water).csv
+│   ├── test_virus_in_water.csv
 │   ├── 05132025 - Average Spectra for Each Concentration - Single Virus in Water with SiO2 - GLF.csv
 │   ├── 05132025 - Average Spectra for Each Concentration - Binary Mixture in Water with SiO2 - GLF.csv
 │   ├── 05132025 - Reconstructed Spectra for Each Concentration - Single Virus in Water with SiO2 - GLF.csv
@@ -21,7 +21,7 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 │
 └── Virus_in_Saliva/
     ├── Least squares fitting of mixture (saliva, with background).ipynb
-    ├── test2 (virus in saliva).csv
+    ├── test2_virus_in_saliva.csv
     ├── 05142025 - Average Spectra for Each Concentration - Single Virus in Saliva with SiO2 - GLF.csv
     ├── 05142025 - Average Spectra for Each Concentration - Binary Mixture in Saliva with SiO2 - GLF.csv
     ├── 05142025 - Reconstructed Spectra for Each Concentration - Single Virus in Saliva with SiO2 - GLF.csv
