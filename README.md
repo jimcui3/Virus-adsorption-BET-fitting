@@ -10,6 +10,8 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 ```
 .
 ├── Virus_in_Water/
+│   ├── Least squares fitting of mixture (water).ipynb
+│   ├── test (virus in water).csv
 │   ├── 05132025 - Average Spectra for Each Concentration - Single Virus in Water with SiO2 - GLF.csv
 │   ├── 05132025 - Average Spectra for Each Concentration - Binary Mixture in Water with SiO2 - GLF.csv
 │   ├── 05132025 - Reconstructed Spectra for Each Concentration - Single Virus in Water with SiO2 - GLF.csv
@@ -18,6 +20,8 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 │       └── *.png  (one figure per virus/mixture + concentration)
 │
 └── Virus_in_Saliva/
+    ├── Least squares fitting of mixture (saliva, with background).ipynb
+    ├── test2 (virus in saliva).csv
     ├── 05142025 - Average Spectra for Each Concentration - Single Virus in Saliva with SiO2 - GLF.csv
     ├── 05142025 - Average Spectra for Each Concentration - Binary Mixture in Saliva with SiO2 - GLF.csv
     ├── 05142025 - Reconstructed Spectra for Each Concentration - Single Virus in Saliva with SiO2 - GLF.csv
@@ -28,8 +32,19 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 
 ## 📝 File descriptions
 
+### IPYNB files  
+1. Each of the two `.ipynb` files in both `Virus_in_Water/` and `Virus_in_Saliva/` are used for calculating the linear decomposition coefficients and creating reconstructed vs real spectra plots. 
+
 ### CSV files  
-1. Each of the two **Single Virus** `.csv` files in both `Virus_in_Water/` and `Virus_in_Saliva/` has rows indexed by Raman shift (in cm⁻¹) and the following columns:
+1. Each of the two **test** `.csv` files in both `Virus_in_Water/` and `Virus_in_Saliva/` are used for linear decomposition. They have rows indexed by Raman shift (in cm⁻¹) and the following columns:
+
+| Column name                          | Description                                                      |
+| ------------------------------------ | ---------------------------------------------------------------- |
+| `450, 451, ..., 1700`                | Measured average SERS intensity of corresponding Raman shift (cm⁻¹)|
+| `Label`                              | Virus or mixture name                                              |
+| `Conc`                               | Concentration of the virus, or concentration combination of the mixture |
+
+2. Each of the two **Single Virus** `.csv` files in both `Virus_in_Water/` and `Virus_in_Saliva/` has rows indexed by Raman shift (in cm⁻¹) and the following columns:
 
 | Column name                          | Description                                                      |
 | ------------------------------------ | ---------------------------------------------------------------- |
@@ -37,7 +52,7 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 | `Concentration`                      | Concentration of the virus                                       |
 | `450, 451, ..., 1700`                | Measured average SERS intensity of corresponding Raman shift (cm⁻¹)|
 
-2. Each of the two **Binary Mixture** `.csv` files in both `Virus_in_Water/` and `Virus_in_Saliva/` has rows indexed by Raman shift (in cm⁻¹) and the following columns:
+3. Each of the two **Binary Mixture** `.csv` files in both `Virus_in_Water/` and `Virus_in_Saliva/` has rows indexed by Raman shift (in cm⁻¹) and the following columns:
 
 | Column name                          | Description                                                      |
 | ------------------------------------ | ---------------------------------------------------------------- |
