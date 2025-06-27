@@ -12,6 +12,7 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 ├── Virus_in_Water/
 │   ├── Least squares fitting of mixture (water).ipynb
 │   ├── test_virus_in_water.csv
+│   ├── SiO2 - only GLF.txt
 │   ├── 05132025 - Average Spectra for Each Concentration - Single Virus in Water with SiO2 - GLF.csv
 │   ├── 05132025 - Average Spectra for Each Concentration - Binary Mixture in Water with SiO2 - GLF.csv
 │   ├── 05132025 - Reconstructed Spectra for Each Concentration - Single Virus in Water with SiO2 - GLF.csv
@@ -22,6 +23,8 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 └── Virus_in_Saliva/
     ├── Least squares fitting of mixture (saliva, with background).ipynb
     ├── test2_virus_in_saliva.csv
+    ├── 05062025 - saliva (GLF 450-1700).txt
+    ├── SiO2 - only GLF.txt
     ├── 05142025 - Average Spectra for Each Concentration - Single Virus in Saliva with SiO2 - GLF.csv
     ├── 05142025 - Average Spectra for Each Concentration - Binary Mixture in Saliva with SiO2 - GLF.csv
     ├── 05142025 - Reconstructed Spectra for Each Concentration - Single Virus in Saliva with SiO2 - GLF.csv
@@ -61,6 +64,11 @@ This repository contains experimental averaged and linearly-decomposed SERS spec
 | `Virus_B`                            | Name of the second virus component                               |
 | `Concentration_B`                    | Concentration of the second virus component                      |
 | `450, 451, ..., 1700`                | Measured average SERS intensity of corresponding Raman shift (cm⁻¹)|
+
+### TXT files  
+1. Each of the two `SiO2 - only GLF.txt` files in both `Virus_in_Water/` and `Virus_in_Saliva/` represent the SiO2 background spectrum.
+
+2. The `05062025 - saliva (GLF 450-1700).txt` file in `Virus_in_Saliva/` represent the saliva background spectrum.
 
 ### PNG plots
 Under each `Reconstructed Spectra vs Actual…` folder you’ll find one plot per concentration for each single virus, and one per concentration combination for each binary mixture. 
