@@ -96,3 +96,16 @@ Each **Binary Mixture** figure shows:
 
 ## ⚖️ License
 This dataset is released under the MIT license.
+
+## Contact
+
+For any questions, issues, or collaboration opportunities, please reach out via:
+
+📧 **Email**:  
+- [jiaheng.cui@uga.edu](mailto:jiaheng.cui@uga.edu)  
+- [zhao-nano-lab@uga.edu](mailto:zhao-nano-lab@uga.edu)  
+
+💬 **GitHub**:  
+- Open an **Issue** or start a discussion in **GitHub Discussions**.
+
+We welcome feedback and potential collaborations!
